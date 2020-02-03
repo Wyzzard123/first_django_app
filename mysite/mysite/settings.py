@@ -29,7 +29,9 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+# For the minimalists
 
+# Like we said above, the default applications are included for the common case, but not everybody needs them. If you don’t need any or all of them, feel free to comment-out or delete the appropriate line(s) from INSTALLED_APPS before running migrate. The migrate command will only run migrations for apps in INSTALLED_APPS.
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
